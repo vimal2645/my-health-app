@@ -1,0 +1,90 @@
+#my-health-app
+
+A simplified my-health-app web application built with **Next.js** for the frontend and **Node.js (Express)** for the backend. This project allows users to search for doctors by city and specialization, showing detailed doctor listings with clinic info, experience, fees, ratings, and patient stories.
+
+---
+
+
+
+- **Home/Search Page:** Users select their city and required doctor specialization and perform a search.
+- **Doctor Listing Page:** Shows a list of doctors filtered by the search criteria, displaying detailed information for each doctor.
+
+The app is responsive and closely follows the provided design examples.
+
+---
+
+## Tech Stack
+
+- **Frontend:** Next.js (React) with responsive design using CSS.
+- **Backend:** Node.js with Express.js framework, serving RESTful APIs.
+- **Data:** Mock data stored as JSON files served by the backend.
+
+---
+
+## Features
+
+- Search doctors by **City** and **Specialization** using dropdowns populated from backend APIs.
+- Doctor Listing page displays:
+  - Doctor’s name and specialization
+  - Years of experience
+  - Clinic name and location
+  - Consultation fee
+  - Rating percentage
+  - Number of patient stories
+  - Availability status ("Available Today")
+  - Action buttons for booking and contacting the clinic
+- Responsive UI working well on desktop and mobile.
+- Clean navigation with navbar and footer links such as:
+  - Consult with a doctor  
+  - Order Medicines  
+  - View medical records  
+- Graceful handling of empty or invalid search queries.
+- Basic loading indicators during API fetches.
+
+
+
+## Installation
+
+### Prerequisites
+
+- Node.js (12.x or later recommended)
+- npm (comes with Node.js)
+
+### Backend Setup
+
+1. Open terminal and navigate to the backend folder:
+cd backend
+npm install
+node server.js
+
+The backend server will start on:  
+`http://localhost:4000`
+
+### Frontend Setup
+
+1. Open another terminal and navigate to the frontend folder:
+cd frontend
+npm install
+nmp run dev 
+
+The frontend app will be available at:  
+`http://localhost:3000`
+
+---
+
+## Usage
+
+1. Open browser at `http://localhost:3000`.
+2. On the **Home/Search Page**:
+- Select your city from the dropdown.
+- Select the specialization from the dropdown.
+- Click **Search**.
+3. You will be taken to the **Doctor Listing Page** showing doctors filtered by your selected city and specialization.
+4. Browse the doctor cards detailing available clinics and doctors.
+5. Use the navigation bar or footer links as needed.
+6. If no doctors are found, a friendly "No doctors found." message is shown.
+
+---
+
+
+

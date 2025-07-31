@@ -1,0 +1,12 @@
+[
+  {"id":1, "name":"Dermatologist"},
+  {"id":2, "name":"Cardiologist"},
+  {"id":3, "name":"Pediatrician"},
+  {"id":4, "name":"Gynecologist"},
+  {"id":5, "name":"Orthopedist"},
+  {"id":6, "name":"Dentist"},
+  {"id":7, "name":"Neurologist"},
+  {"id":8, "name":"ENT Specialist"},
+  {"id":9, "name":"General Physician"},
+  {"id":10, "name":"Psychiatrist"}
+]
